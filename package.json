@@ -1,0 +1,25 @@
+{
+	"name": "iworker",
+	"version": "1.0.0",
+	"description": "webworker的简单应用",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/idler8/iworker.git"
+	},
+	"keywords": [
+		"worker",
+		"web",
+		"webworker",
+		"simplewebworker"
+	],
+	"author": "潘丽敏",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/idler8/iworker/issues"
+	},
+	"homepage": "https://github.com/idler8/iworker#readme"
+}
