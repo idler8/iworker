@@ -1,8 +1,8 @@
 {
-	"name": "iworker",
+	"name": "i-web-worker",
 	"version": "1.0.0",
 	"description": "webworker的简单应用",
-	"main": "src/index.js",
+	"main": "dist/index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -21,5 +21,17 @@
 	"bugs": {
 		"url": "https://github.com/idler8/iworker/issues"
 	},
-	"homepage": "https://github.com/idler8/iworker#readme"
+	"homepage": "https://github.com/idler8/iworker#readme",
+	"devDependencies": {
+		"@babel/core": "^7.1.2",
+		"@babel/preset-env": "^7.1.0",
+		"@babel/runtime": "^7.1.2",
+		"babel-loader": "^8.0.4",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"rollup": "^1.20.3",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-json": "^4.0.0",
+		"rollup-plugin-node-resolve": "^5.2.0"
+	}
 }
